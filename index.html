@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <button onclick="alterarConteudo('cadastro')" class="btn btn-primary">
+      Cadastro
+    </button>
+    <button onclick="alterarConteudo('listar')" class="btn btn-primary">
+      Listar
+    </button>
+    <button onclick="alterarConteudo('perfil')" class="btn btn-primary">
+      Meu Perfil
+    </button>
+    <button onclick="alterarConteudo('config')" class="btn btn-primary">
+      Configurações
+    </button>
+    <button onclick="alterarConteudo('report')" class="btn btn-primary">
+      Relatórios
+    </button>
+
+    <section id="content" class="card card-body m-4"></section>
+
+    <script src="js/pages/listar.js"></script>
+    <script src="js/pages/cadastro.js"></script>
+    <script src="js/pages/perfil.js"></script>
+    <script src="js/pages/config.js"></script>
+    <script src="js/pages/report.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

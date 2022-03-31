@@ -1,0 +1,36 @@
+{
+  "frutas": [
+    {
+      "id": 1,
+      "nome": "Maracujá"
+    },
+    {
+      "id": 2,
+      "nome": "Laranja"
+    },
+    {
+      "id": 3,
+      "nome": "Morango"
+    },
+    {
+      "id": 4,
+      "nome": "Tamarindo"
+    },
+    {
+      "id": 6,
+      "nome": "Melancia"
+    },
+    {
+      "nome": "Abacate",
+      "id": 7
+    },
+    {
+      "nome": "Melão",
+      "id": 8
+    },
+    {
+      "nome": "Banana",
+      "id": 9
+    }
+  ]
+}
