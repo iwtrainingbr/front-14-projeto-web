@@ -7,6 +7,7 @@ function navbar() {
     'report': 'Relatórios',
     'login': 'Sair',
     'tito': 'Titão',
+    'allyson': 'Allyson'
   };
 
   let buttons = '';
