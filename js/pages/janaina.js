@@ -1,5 +1,5 @@
-function novaPagina() {
+function janaina() {
     return `
-    <h1>Olá, Janaina</h1>`
+    <h1>Olá, Janaina</h1>`;
 }
 
