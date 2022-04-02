@@ -16,7 +16,7 @@ function navbar() {
     'allyson': 'Allyson',
     'listCards': 'Cartões',
     'addCard': 'Novo Cartão',
-    'addCard': 'Categoria',
+    'addCategory': 'Nova Categoria',
   };
 
   let buttons = '';
