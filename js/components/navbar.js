@@ -5,8 +5,15 @@ function navbar() {
     'perfil': 'Meu Perfil',
     'config': 'Configurações',
     'report': 'Relatórios',
+    'login': 'sair',
+    'hermeson':'frase',
     'login': 'Sair',
     'milena': 'Milena',
+    'andrade': 'Andrade',
+    'janaina': 'Página',
+    'alvaro': 'Pagina Alvaro',
+    'tito': 'Titão',
+    'allyson': 'Allyson'
   };
 
   let buttons = '';
