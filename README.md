@@ -13,7 +13,7 @@ No diretório da aplicação, crie um novo arquivo chamado `db.json` e copie par
 
 Execute no terminal:
 ```shell
-npx json-server --watch db.json --port 8000
+npx json-server --watch db.json --port 3000
 ```
 
 ### Executando a aplicação
