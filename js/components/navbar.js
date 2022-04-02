@@ -16,6 +16,8 @@ function navbar() {
     'allyson': 'Allyson',
     'listCards': 'Cartões',
     'addCard': 'Novo Cartão',
+<
+    'list':'Lista Usuários'
     'payment': 'Tipo de Pagamento',
 
     'addUser': 'Novo Usuario',
