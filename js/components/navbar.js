@@ -6,6 +6,7 @@ function navbar() {
     'config': 'Configurações',
     'report': 'Relatórios',
     'login': 'Sair',
+    'andrade': 'Andrade',
   };
 
   let buttons = '';
