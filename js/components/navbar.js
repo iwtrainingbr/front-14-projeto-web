@@ -8,6 +8,7 @@ function navbar() {
     'login': 'sair',
     'hermeson':'frase',
     'login': 'Sair',
+    'milena': 'Milena',
     'andrade': 'Andrade',
     'janaina': 'Página',
     'alvaro': 'Pagina Alvaro',
