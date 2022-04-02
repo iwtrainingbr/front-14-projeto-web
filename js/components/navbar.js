@@ -7,6 +7,9 @@ function navbar() {
     'report': 'Relatórios',
     'login': 'Sair',
     'janaina': 'Página',
+    'alvaro': 'Pagina Alvaro',
+    'tito': 'Titão',
+    'allyson': 'Allyson'
   };
 
   let buttons = '';
