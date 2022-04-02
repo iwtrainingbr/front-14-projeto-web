@@ -7,6 +7,10 @@ function navbar() {
     'report': 'Relatórios',
     'login': 'Sair',
     'andrade': 'Andrade',
+    'janaina': 'Página',
+    'alvaro': 'Pagina Alvaro',
+    'tito': 'Titão',
+    'allyson': 'Allyson'
   };
 
   let buttons = '';
