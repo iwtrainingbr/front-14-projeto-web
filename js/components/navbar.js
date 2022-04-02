@@ -15,7 +15,6 @@ function navbar() {
     'tito': 'Titão',
     'allyson': 'Allyson',
     'listCards': 'Cartões',
-    'addCard': 'Novo Cartão',
   };
 
   let buttons = '';
