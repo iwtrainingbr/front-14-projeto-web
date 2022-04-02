@@ -5,6 +5,8 @@ function navbar() {
     'perfil': 'Meu Perfil',
     'config': 'Configurações',
     'report': 'Relatórios',
+    'login': 'sair',
+    'hermeson':'frase',
     'login': 'Sair',
     'andrade': 'Andrade',
     'janaina': 'Página',
