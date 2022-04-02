@@ -13,7 +13,9 @@ function navbar() {
     'janaina': 'Página',
     'alvaro': 'Pagina Alvaro',
     'tito': 'Titão',
-    'allyson': 'Allyson'
+    'allyson': 'Allyson',
+    'listCards': 'Cartões',
+    'addCard': 'Novo Cartão',
   };
 
   let buttons = '';
