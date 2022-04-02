@@ -6,6 +6,8 @@ function navbar() {
     'config': 'Configurações',
     'report': 'Relatórios',
     'login': 'Sair',
+    'alvaro': 'Pagina Alvaro',
+
   };
 
   let buttons = '';
