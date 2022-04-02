@@ -5,7 +5,8 @@ function navbar() {
     'perfil': 'Meu Perfil',
     'config': 'Configurações',
     'report': 'Relatórios',
-    'login': 'Sair',
+    'login': 'sair',
+    'hermeson':'frase',
   };
 
   let buttons = '';
