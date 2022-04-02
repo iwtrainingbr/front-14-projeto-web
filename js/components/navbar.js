@@ -7,6 +7,12 @@ function navbar() {
     'report': 'Relatórios',
     'login': 'sair',
     'hermeson':'frase',
+    'login': 'Sair',
+    'andrade': 'Andrade',
+    'janaina': 'Página',
+    'alvaro': 'Pagina Alvaro',
+    'tito': 'Titão',
+    'allyson': 'Allyson'
   };
 
   let buttons = '';
