@@ -6,6 +6,7 @@ function navbar() {
     'config': 'Configurações',
     'report': 'Relatórios',
     'login': 'Sair',
+    'tito': 'Titão',
     'allyson': 'Allyson'
   };
 
