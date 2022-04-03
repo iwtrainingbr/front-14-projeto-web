@@ -15,6 +15,11 @@ function navbar() {
     'tito': 'Titão',
     'allyson': 'Allyson',
     'listCards': 'Cartões',
+    'addCategory': 'Nova Categoria',
+    'list':'Lista Usuários'
+    'payment': 'Tipo de Pagamento',
+
+    'addUser': 'Novo Usuario',
   };
 
   let buttons = '';
