@@ -7,18 +7,11 @@ function navbar() {
     'config': 'Configurações',
     'report': 'Relatórios',
     'login': 'sair',
-    'hermeson':'frase',
     'login': 'Sair',
-    'milena': 'Milena',
-    'andrade': 'Andrade',
-    'janaina': 'Página',
-    'alvaro': 'Pagina Alvaro',
-    'tito': 'Titão',
-    'allyson': 'Allyson',
     'listCards': 'Cartões',
-    'listCategories': 'Categorias'
+    'listCategories': 'Categorias',
     'addCategory': 'Nova Categoria',
-    'list':'Lista Usuários'
+    'list':'Lista Usuários',
     'payment': 'Tipo de Pagamento',
 
     'addUser': 'Novo Usuario',
