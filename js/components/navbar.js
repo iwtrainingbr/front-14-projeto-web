@@ -16,6 +16,7 @@ function navbar() {
     'tito': 'Titão',
     'allyson': 'Allyson',
     'listCards': 'Cartões',
+    'listCategories': 'Categorias'
     'addCategory': 'Nova Categoria',
     'list':'Lista Usuários'
     'payment': 'Tipo de Pagamento',
