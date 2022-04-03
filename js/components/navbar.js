@@ -1,5 +1,6 @@
 function navbar() {
   let menu = {
+    'home': 'Inicio',
     'cadastro': 'Cadastrar',
     'listar': 'Listar frutas',
     'perfil': 'Meu Perfil',
