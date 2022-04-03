@@ -2,6 +2,10 @@ function addCard() {
   return `
     <h2>Novo Cartão</h2>
     <hr>
+
+    <div>
+    <button onclick="alterarConteudo('listCards')" type="button" class="btn btn-outline-success">Voltar</button>
+    </div>
     <form>
       <label for="card-name">Nome</label>
       <input id="card-name" class="form-control mb-3" placeholder="Digite aqui">

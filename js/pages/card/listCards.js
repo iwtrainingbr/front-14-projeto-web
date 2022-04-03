@@ -1,6 +1,9 @@
 function listCards() {
   return `
     <h2>Gerenciar Cartões</h2>
+    <div>
+    <button onclick="alterarConteudo('addCard')" type="button" class="btn btn-success">Adicionar</button>
+    </div>
     <hr>
     <table class="table table-striped table-hover">
       <thead class="table-dark">
@@ -31,3 +34,4 @@ function listCards() {
     </table>
   `;
 }
+
