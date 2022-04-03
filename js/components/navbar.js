@@ -17,6 +17,11 @@ function navbar() {
     'listCards': 'Cartões',
     'addCard': 'Novo Cartão',
     'addCategory': 'Nova Categoria',
+    'list':'Lista Usuários'
+    'payment': 'Tipo de Pagamento',
+
+    'addUser': 'Novo Usuario',
+
   };
 
   let buttons = '';
