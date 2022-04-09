@@ -32,6 +32,51 @@
       "year":  2010
     }
   ],
+  
+  "categories": [
+        {
+          "id" : 1,
+          "name" : "alimentacao",
+          "description" :"gasto com alimentação"
+        },
+    
+        {
+          "id": 2,
+          "name": "animal de estimacao",
+          "description":"gasto com animais"
+        },
+    
+        {
+          "id": 3,
+          "name": "educacao",
+          "description":"gasto com educação"
+        },
+
+        {
+          "id": 4,
+          "name": "lazer",
+          "description":"gasto com viagem"
+        },
+
+        {
+          "id": 5,
+          "name": "saude",
+          "description":"gasto com saúde"
+        },
+
+        {
+          "id": 6,
+          "name": "transporte",
+          "description":"gasto com transporte"
+        },
+
+        {
+          "id": 7,
+          "name": "casa",
+          "description":"gasto com a casa"
+        }
+  ],
+
   "payment-types": [
       {
         "id": 1,
