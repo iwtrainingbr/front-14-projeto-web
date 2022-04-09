@@ -10,7 +10,7 @@ function listCategories() {
           
           <td>
             <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Excluir</button>
+            <button onClick="removeCat(${cat.id})" class="btn btn-danger">Excluir</button>
           </td>
         </tr>                
       `;
@@ -38,4 +38,18 @@ function listCategories() {
       </table>
     `;
   }
+  
+  function removeCat(id) {
+    if (false === confirm('Você tem certeza disso?')) {
+      return;
+    }
+  
+    fetch('http://localhost:3000/categories/'+id, {
+      method: 'DELETE'
+    });
+  
+    alert('Pronto, categoria excluida');
+    alterarConteudo('listCategories');
+  }
+  
   
