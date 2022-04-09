@@ -17,147 +17,141 @@
       "id": 4
     }
   ],
-
   "vehicles": [
     {
       "id": 1,
       "make": "Chevrolet",
       "model": "Celta",
-      "year":  2015
+      "year": 2015
     },
     {
       "id": 2,
       "make": "Fiat",
       "model": "Palio",
-      "year":  2010
+      "year": 2010
     }
   ],
-
-  "cards" :[
+  "cards": [
     {
       "id": 1,
-      "name": "Janaina Oliveira da Silva" ,
-      "flag": "Visa",  
+      "name": "Janaina Oliveira da Silva",
+      "flag": "Visa",
       "number": "6060.6060.6060.6060",
       "type": "Débito",
       "validDate": "07/26"
     },
     {
       "id": 2,
-      "name": "Bruno Sousa de lima" ,
-      "type": "Mastercard",  
-      "number": "6060.6060.6060.6060",
+      "name": "Bruno Sousa de lima",
       "type": "credit",
+      "number": "6060.6060.6060.6060",
       "validDate": "07/26"
     },
-  {
-    "id": 3,
-    "name": "Bruno Sousa de lima" ,
-    "type": "ELO",  
-    "number": "6060.6060.6060.6060",
-    "type": "credit",
-    "validDate": "07/26"
-  },
-  {
-    "id": 4,
-    "name": "Lucas" ,
-    "type": "Hipercard",  
-    "number": "6060.6060.6060.6060",
-    "type": "credit",
-    "validDate": "07/26"
-  },
-  {
-    "id": 5,
-    "name": "Bruno Sousa de lima" ,
-    "type": "Maestro",  
-    "number": "6060.6060.6060.6060",
-    "type": "credit",
-    "validDate": "07/26"
-  }
-  
-], 
- 
-  "categories": [
-        {
-          "id" : 1,
-          "name" : "alimentacao",
-          "description" :"gasto com alimentação"
-        },
-    
-        {
-          "id": 2,
-          "name": "animal de estimacao",
-          "description":"gasto com animais"
-        },
-    
-        {
-          "id": 3,
-          "name": "educacao",
-          "description":"gasto com educação"
-        },
-
-        {
-          "id": 4,
-          "name": "lazer",
-          "description":"gasto com viagem"
-        },
-
-        {
-          "id": 5,
-          "name": "saude",
-          "description":"gasto com saúde"
-        },
-
-        {
-          "id": 6,
-          "name": "transporte",
-          "description":"gasto com transporte"
-        },
-
-        {
-          "id": 7,
-          "name": "casa",
-          "description":"gasto com a casa"
-        }
+    {
+      "id": 3,
+      "name": "Bruno Sousa de lima",
+      "type": "credit",
+      "number": "6060.6060.6060.6060",
+      "validDate": "07/26"
+    },
+    {
+      "id": 4,
+      "name": "Lucas",
+      "type": "credit",
+      "number": "6060.6060.6060.6060",
+      "validDate": "07/26"
+    },
+    {
+      "id": 5,
+      "name": "Bruno Sousa de lima",
+      "type": "credit",
+      "number": "6060.6060.6060.6060",
+      "validDate": "07/26"
+    }
   ],
-
+  "categories": [
+    {
+      "id": 1,
+      "name": "alimentacao",
+      "description": "gasto com alimentação"
+    },
+    {
+      "id": 2,
+      "name": "animal de estimacao",
+      "description": "gasto com animais"
+    },
+    {
+      "id": 3,
+      "name": "educacao",
+      "description": "gasto com educação"
+    },
+    {
+      "id": 4,
+      "name": "lazer",
+      "description": "gasto com viagem"
+    },
+    {
+      "id": 5,
+      "name": "saude",
+      "description": "gasto com saúde"
+    },
+    {
+      "id": 6,
+      "name": "transporte",
+      "description": "gasto com transporte"
+    },
+    {
+      "id": 7,
+      "name": "casa",
+      "description": "gasto com a casa"
+    }
+  ],
   "payment-types": [
-      {
-        "id": 1,
-        "name": "Dinheiro",
-        "description": "Dinheiro em Espécie"
-      },
-      {
-        "id": 2,
-        "name": "Máquina de Cartão",
-        "description": "Máquina de Cartão"
-      },  
-      {
-        "id": 3,
-        "name": "Boleto Bancária",
-        "description": "Boleto Bancário"
-      },  
-      {
-        "id": 4,
-        "name": "Transferência Bancária",
-        "description": "Transferência Bancário"
-      },  
-      {
-        "id": 5,
-        "name": "Pagamento por Aproximação",
-        "description": "Pagamento por Aproximação"
-      },
-      {
-        "id": 6,
-        "name": "Pagamento pelo celular",
-        "description": "Pagamento pelo celular"
-      },
-      {
-        "id": 7,
-        "name": "Link de Pagamento",
-        "description": "Link de Pagamento"
-      }
-  ],        
+    {
+      "id": 1,
+      "name": "Dinheiro",
+      "description": "Dinheiro em Espécie"
+    },
+    {
+      "id": 2,
+      "name": "Máquina de Cartão",
+      "description": "Máquina de Cartão"
+    },
+    {
+      "id": 3,
+      "name": "Boleto Bancária",
+      "description": "Boleto Bancário"
+    },
+    {
+      "id": 4,
+      "name": "Transferência Bancária",
+      "description": "Transferência Bancário"
+    },
+    {
+      "id": 5,
+      "name": "Pagamento por Aproximação",
+      "description": "Pagamento por Aproximação"
+    },
+    {
+      "id": 6,
+      "name": "Pagamento pelo celular",
+      "description": "Pagamento pelo celular"
+    },
+    {
+      "id": 7,
+      "name": "Link de Pagamento",
+      "description": "Link de Pagamento"
+    },
+    {
+      "name": "PIX",
+      "id": 8
+    },
+    {
+      "name": "PIX",
+      "description": "Pagamento PIX",
+      "id": 9
+    }
+  ],
   "users": [
     {
       "id": 1,
