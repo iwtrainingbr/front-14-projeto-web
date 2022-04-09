@@ -32,7 +32,51 @@
       "year":  2010
     }
   ],
+
+  "cards" :[
+    {
+      "id": 1,
+      "name": "Janaina Oliveira da Silva" ,
+      "flag": "Visa",  
+      "number": "6060.6060.6060.6060",
+      "type": "Débito",
+      "validDate": "07/26"
+    },
+    {
+      "id": 2,
+      "name": "Bruno Sousa de lima" ,
+      "type": "Mastercard",  
+      "number": "6060.6060.6060.6060",
+      "type": "credit",
+      "validDate": "07/26"
+    },
+  {
+    "id": 3,
+    "name": "Bruno Sousa de lima" ,
+    "type": "ELO",  
+    "number": "6060.6060.6060.6060",
+    "type": "credit",
+    "validDate": "07/26"
+  },
+  {
+    "id": 4,
+    "name": "Lucas" ,
+    "type": "Hipercard",  
+    "number": "6060.6060.6060.6060",
+    "type": "credit",
+    "validDate": "07/26"
+  },
+  {
+    "id": 5,
+    "name": "Bruno Sousa de lima" ,
+    "type": "Maestro",  
+    "number": "6060.6060.6060.6060",
+    "type": "credit",
+    "validDate": "07/26"
+  }
   
+], 
+ 
   "categories": [
         {
           "id" : 1,
