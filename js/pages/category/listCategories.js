@@ -1,4 +1,22 @@
 function listCategories() {
+  fetch ('http://localhost:3000/categories')
+  .then(response => response.json())
+  .then(response => {
+    response.map(cat => {
+      document.getElementById('table-categories').innerHTML += `
+        <tr>
+          <td>${cat.name}</td>
+          <td>${cat.description}</td>
+          
+          <td>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Excluir</button>
+          </td>
+        </tr>                
+      `;
+    })
+  });
+
     return `
       <h2>Categoria de categorias</h2>
       <hr>
@@ -10,17 +28,8 @@ function listCategories() {
             <td>ações</td>
            </tr>
         </thead>
-        <tbody>
-          ${[0, 1, 2, 3, 4, 5].map(() => {
-            return `<tr>
-              <td>Nome</td>
-              <td>Descrições</td>
-              <td>
-                <button class="btn btn-warning">Editar</button>
-                <button class="btn btn-danger">Excluir</button>
-              </td>
-            </tr>`;
-          }).join('')}
+        <tbody id="table-categories">
+
         </tbody>
       </table>
     `;
