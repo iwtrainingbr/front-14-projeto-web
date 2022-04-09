@@ -75,5 +75,100 @@
           "name": "casa",
           "description":"gasto com a casa"
         }
+  ],
+
+  "payment-types": [
+      {
+        "id": 1,
+        "name": "Dinheiro",
+        "description": "Dinheiro em Espécie"
+      },
+      {
+        "id": 2,
+        "name": "Máquina de Cartão",
+        "description": "Máquina de Cartão"
+      },  
+      {
+        "id": 3,
+        "name": "Boleto Bancária",
+        "description": "Boleto Bancário"
+      },  
+      {
+        "id": 4,
+        "name": "Transferência Bancária",
+        "description": "Transferência Bancário"
+      },  
+      {
+        "id": 5,
+        "name": "Pagamento por Aproximação",
+        "description": "Pagamento por Aproximação"
+      },
+      {
+        "id": 6,
+        "name": "Pagamento pelo celular",
+        "description": "Pagamento pelo celular"
+      },
+      {
+        "id": 7,
+        "name": "Link de Pagamento",
+        "description": "Link de Pagamento"
+      }
+  ],        
+  "users": [
+    {
+      "id": 1,
+      "name": "Tito Filho",
+      "email": "tito@tito.com",
+      "password": "$2y$10$DRmYMMlM76O7r0.UevYW2ub/XyJuiS2egOD.hFT64HLoLHwZTaYDK",
+      "cpf": "02501302563",
+      "phone": "5585999988779",
+      "createdAt": "2022-04-09 18:35:36",
+      "lastAccess": "2022-04-09 18:36:12",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "Alessandro Feitoza",
+      "email": "ale@chivas.com",
+      "password": "$2y$10$5fsM8V3PrKwyevbqJCbWteq/3YL6Q6gX78ARRNrPH5GzD1tcezYWi",
+      "cpf": "03478969345",
+      "phone": "5585985644558",
+      "createdAt": "2022-04-09 18:37:12",
+      "lastAccess": "2022-04-09 18:38:19",
+      "status": 0
+    },
+    {
+      "id": 3,
+      "name": "Andrade da Silva",
+      "email": "andrade@andrade.com",
+      "password": "$2y$10$6EYDeL.88KlKcxLaxKa8M.h4NA9d9hJ782Clf3rt1GDSNgAi3sM8y",
+      "cpf": "62878945632",
+      "phone": "5588998789965",
+      "createdAt": "2022-04-09 18:39:20",
+      "lastAccess": "2022-04-09 18:40:01",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "name": "Janaina Oliveira",
+      "email": "jana@jana.com",
+      "password": "$2y$10$kNwHLwsPaXgiW4hXAp6MYewxt.F08YMtEy4HSh1PhLpcLQtl0iW2S",
+      "cpf": "32179852632",
+      "phone": "5588997856325",
+      "createdAt": "2022-04-09 18:39:41",
+      "lastAccess": "2022-04-09 18:41:12",
+      "status": 1
+    },
+    {
+      "id": 5,
+      "name": "Tito Filho",
+      "email": "tito@tito.com",
+      "password": "$2y$10$DRmYMMlM76O7r0.UevYW2ub/XyJuiS2egOD.hFT64HLoLHwZTaYDK",
+      "cpf": "02501302563",
+      "phone": "5585999988779",
+      "createdAt": "2022-04-09 18:35:36",
+      "lastAccess": "2022-04-09 18:36:20",
+      "status": 1
+    }
   ]
 }
