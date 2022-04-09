@@ -20,7 +20,7 @@ function savePaymentType() {
 
 function addPaymentType() {
     return `
-      <h2>Tipo de Pagamento</h2>
+      <h2>Adicionar Tipo de Pagamento</h2>
       <hr>
       <form onsubmit="savePaymentType()">
         <label for="payment-name">Nome</label>

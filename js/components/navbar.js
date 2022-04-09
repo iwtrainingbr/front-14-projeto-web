@@ -10,12 +10,8 @@ function navbar() {
     'login': 'Sair',
     'listCards': 'Cartões',
     'listCategories': 'Categorias',
-    'addCategory': 'Nova Categoria',
-    'list':'Lista Usuários',
-    'addPaymentType': 'Tipo de Pagamento',
-    'listPaymentTypes': 'Lista de pagamentos',
-
-    'addUser': 'Novo Usuario',
+    'listUser':'Usuários',
+    'listPaymentTypes': 'Pagamentos'
   };
 
   let buttons = '';
