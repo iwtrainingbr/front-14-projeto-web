@@ -32,7 +32,43 @@
       "year":  2010
     }
   ],
-
+  "payment-types": [
+      {
+        "id": 1,
+        "name": "Dinheiro",
+        "description": "Dinheiro em Espécie"
+      },
+      {
+        "id": 2,
+        "name": "Máquina de Cartão",
+        "description": "Máquina de Cartão"
+      },  
+      {
+        "id": 3,
+        "name": "Boleto Bancária",
+        "description": "Boleto Bancário"
+      },  
+      {
+        "id": 4,
+        "name": "Transferência Bancária",
+        "description": "Transferência Bancário"
+      },  
+      {
+        "id": 5,
+        "name": "Pagamento por Aproximação",
+        "description": "Pagamento por Aproximação"
+      },
+      {
+        "id": 6,
+        "name": "Pagamento pelo celular",
+        "description": "Pagamento pelo celular"
+      },
+      {
+        "id": 7,
+        "name": "Link de Pagamento",
+        "description": "Link de Pagamento"
+      }
+  ],        
   "users": [
     {
       "id": 1,

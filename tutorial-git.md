@@ -5,7 +5,7 @@
 
 #### Pra atualizar o seu branch (local) principal
  - git pull origin main
-
+git
 #### Serve pra criar um novo branch, e mudar pra ele
  - git checkout -b novo-branch
 
