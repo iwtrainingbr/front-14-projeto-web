@@ -22,6 +22,7 @@ function listCards() {
     });
   return `
     <h2>Gerenciar Cartões</h2>
+    <hr>
     <div>
     <button onclick="alterarConteudo('addCard')" type="button" class="btn btn-success">Adicionar</button>
     </div>
