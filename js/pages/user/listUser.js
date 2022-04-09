@@ -1,6 +1,10 @@
-function list() {
+function listUser() {
     return `
     <h2>Lista de Usuários</h2>
+    <hr>
+    <div>
+      <button onclick="alterarConteudo('addUser')" type="button" class="btn btn-success">Adicionar</button>
+    </div>
     <hr>
     <table class="table table-striped table-hover">
       <thead class="table-danger">

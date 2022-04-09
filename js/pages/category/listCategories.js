@@ -18,7 +18,11 @@ function listCategories() {
   });
 
     return `
-      <h2>Categoria de categorias</h2>
+      <h2>Lista de categorias</h2>
+      <hr>
+      <div>
+        <button onclick="alterarConteudo('addCategory')" type="button" class="btn btn-success">Adicionar</button>
+      </div>
       <hr>
       <table class="table table-striped table-hover">
         <thead class="table-dark">

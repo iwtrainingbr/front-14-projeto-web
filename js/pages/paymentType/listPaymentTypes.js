@@ -2,6 +2,10 @@ function listPaymentTypes() {
     return `
       <h2>Lista de Pagamentos</h2>
       <hr>
+      <div>
+        <button onclick="alterarConteudo('addPaymentType')" type="button" class="btn btn-success">Adicionar</button>
+      </div>
+      <hr>
       <table class="table table-striped table-hover">
         <thead class="table-dark">
           <tr>
