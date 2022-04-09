@@ -1,3 +1,17 @@
+function removeCard(id) {
+  if (false === confirm('Você tem certeza disso?')) {
+    return;
+  }
+
+  fetch('http://localhost:3000/cards/'+id, {
+    method: 'DELETE'
+  });
+
+  alert('Pronto, cartão excluido');
+  alterarConteudo('listCards');
+}
+
+
 function listCards() {
 
   fetch ('http://localhost:3000/cards')
@@ -14,7 +28,7 @@ function listCards() {
             <td>${cadaCards.validDate}</td>
             <td>
               <button class="btn btn-primary">Editar</button>
-              <button class="btn btn-warning">Excluir</button>
+               <button onclick="removeCard(${cadaCards.id})" class="btn btn-warning">Excluir</button>
             </td>           
           </tr>
         `;
