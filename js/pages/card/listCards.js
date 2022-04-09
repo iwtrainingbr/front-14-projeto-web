@@ -1,4 +1,25 @@
 function listCards() {
+
+  fetch ('http://localhost:3000/cards')
+    .then(response => response.json())
+    .then(response => {
+      response.map(cadaCards => {
+        document.getElementById('cards').innerHTML += `
+          <tr>
+           
+            <td>${cadaCards.name}</td>
+            <td>${cadaCards.flag}</td>
+            <td>${cadaCards.number}</td>
+            <td>${cadaCards.type}</td>
+            <td>${cadaCards.validDate}</td>
+            <td>
+              <button class="btn btn-primary">Editar</button>
+              <button class="btn btn-warning">Excluir</button>
+            </td>           
+          </tr>
+        `;
+      })
+    });
   return `
     <h2>Gerenciar Cartões</h2>
     <div>
@@ -16,20 +37,7 @@ function listCards() {
           <td>Ações</td>
         </tr>
       </thead>
-      <tbody>
-        ${[0, 1, 2, 3, 4, 5].map(() => {
-          return `<tr>
-            <td>Meu Roxinho</td>
-            <td>MasterCard</td>
-            <td>1234 **** **** *123</td>
-            <td>Crédito</td>
-            <td>01/28</td>
-            <td>
-              <button class="btn btn-warning">Editar</button>
-              <button class="btn btn-danger">Excluir</button>
-            </td>
-          </tr>`;
-        }).join('')}
+      <tbody id="cards">        
       </tbody>
     </table>
   `;
