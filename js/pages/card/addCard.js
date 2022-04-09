@@ -1,3 +1,26 @@
+function saveCard () {
+  event.preventDefault();
+
+  let newCard = {
+    name:       document.getElementById('card-name').value,
+    flag:       document.getElementById('card-flag').value,
+    number:     document.getElementById('card-number').value,
+    validDate:  document.getElementById('card-date').value,
+    type:       document.getElementById('card-type').value,
+  };
+
+  fetch ('http://localhost:3000/cards', {
+    method: 'POST',
+    body: JSON.stringify(newCard),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+
+  alert('Feito! Seu cartão foi cadastrado');
+  document.getElementById('form-card').reset();
+}
+
 function addCard() {
   return `
     <h2>Novo Cartão</h2>
@@ -6,7 +29,7 @@ function addCard() {
     <div>
     <button onclick="alterarConteudo('listCards')" type="button" class="btn btn-outline-success">Voltar</button>
     </div>
-    <form>
+    <form onSubmit="saveCard()" id="form-card">
       <label for="card-name">Nome</label>
       <input id="card-name" class="form-control mb-3" placeholder="Digite aqui">
 
