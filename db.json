@@ -13,40 +13,23 @@
       "nome": "Morango"
     },
     {
-      "id": 4,
-      "nome": "Tamarindo"
+      "nome": "Banana Prata",
+      "id": 4
+    }
+  ],
+
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Chevrolet",
+      "model": "Celta",
+      "year":  2015
     },
     {
-      "id": 6,
-      "nome": "Melancia"
-    },
-    {
-      "nome": "Abacate",
-      "id": 7
-    },
-    {
-      "nome": "Melão",
-      "id": 8
-    },
-    {
-      "nome": "Banana",
-      "id": 9
-    },
-    {
-      "nome": "coco babao",
-      "id": 10
-    },
-    {
-      "nome": "",
-      "id": 11
-    },
-    {
-      "nome": "maçã",
-      "id": 12
-    },
-    {
-      "nome": "Maracuja",
-      "id": 13
+      "id": 2,
+      "make": "Fiat",
+      "model": "Palio",
+      "year":  2010
     }
   ]
 }

@@ -12,7 +12,7 @@ function navbar() {
     'listCategories': 'Categorias',
     'addCategory': 'Nova Categoria',
     'list':'Lista Usuários',
-    'payment': 'Tipo de Pagamento',
+    'addPaymentType': 'Tipo de Pagamento',
 
     'addUser': 'Novo Usuario',
   };
