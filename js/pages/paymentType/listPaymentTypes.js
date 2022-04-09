@@ -1,4 +1,22 @@
 function listPaymentTypes() {
+  fetch ('http://localhost:3000/payment-types')
+  .then(response => response.json())
+  .then(response => {
+    response.map(cat => {
+      document.getElementById('table-paymentType').innerHTML += `
+        <tr>
+          <td>${cat.name}</td>
+          <td>${cat.description}</td>
+          
+          <td>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Excluir</button>
+          </td>
+        </tr>                
+      `;
+    })
+  });
+  
     return `
       <h2>Lista de Pagamentos</h2>
       <hr>
@@ -10,17 +28,8 @@ function listPaymentTypes() {
             <td>Tipo</td>
            </tr>
         </thead>
-        <tbody>
-          ${[0, 1, 2, 3, 4, 5].map(() => {
-            return `<tr>
-              <td>Valor</td>
-              <td>Descrições</td>
-              <td>
-                <button class="btn btn-warning">Editar</button>
-                <button class="btn btn-danger">Excluir</button>
-              </td>
-            </tr>`;
-          }).join('')}
+        <tbody id="table-paymentType">
+          
         </tbody>
       </table>
     `;
