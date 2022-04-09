@@ -33,6 +33,176 @@
     }
   ],
 
+  "movements": [
+    {
+      "id":1,
+      "price":94,
+      "type": "in",
+      "paymentType":"cartão débito",
+      "category": "cosméticos",
+      "datetime": "2020/09/31 10:25"
+    },
+    {
+      "id":2,
+      "price":80,
+      "type": "in",
+      "paymentType":"espécie",
+      "category": "pet",
+      "datetime": "2020/07/30 12:25"
+    },
+    {
+      "id":3,
+      "price":200,
+      "type": "in",
+      "paymentType":"cartão crédito",
+      "category": "roupas",
+      "datetime": "2020/08/10 16:57"
+    },
+    {
+      "id":4,
+      "price":150,
+      "type": "in",
+      "paymentType":"cartão voucher",
+      "category": "salão",
+      "datetime": "2020/09/07 10:15"
+    },
+    {
+      "id":5,
+      "price":10,
+      "type": "out",
+      "paymentType":"cartão crédito",
+      "category": "educação",
+      "datetime": "2020/09/21 18:45"
+    },
+    {
+      "id":6,
+      "price":20,
+      "type": "in",
+      "paymentType":"cartão débito",
+      "category": "cosméticos",
+      "datetime": "2020/09/31 10:25"
+    },
+    {
+      "id":7,
+      "price":48,
+      "type": "out",
+      "paymentType":"cartão crédito",
+      "category": "cosméticos",
+      "datetime": "2020/09/31 17:25"
+    },
+    {
+      "id":8,
+      "price":63,
+      "type": "in",
+      "paymentType":"cartão vpoucher",
+      "category": "cosméticos",
+      "datetime": "2020/09/31 19:12"
+    },
+    {
+      "id":9,
+      "price":75,
+      "type": "in",
+      "paymentType":"espécie",
+      "category": "saúde",
+      "datetime": "2020/03/26 08:25"
+    },
+    {
+      "id":10,
+      "price":185,
+      "type": "in",
+      "paymentType":"cartão crédito",
+      "category": "cosméticos",
+      "datetime": "2020/07/31 10:24"
+    },
+    {
+      "id":11,
+      "price":320,
+      "type": "in",
+      "paymentType":"cartão débito",
+      "category": "lazer",
+      "datetime": "2020/10/25 10:35"
+    },
+    {
+      "id":12,
+      "price":350,
+      "type": "in",
+      "paymentType":"cartão crédito",
+      "category": "cosméticos",
+      "datetime": "2020/09/31 10:45"
+    },
+    {
+      "id":13,
+      "price":220,
+      "type": "in",
+      "paymentType":"espécie",
+      "category": "alimentação",
+      "datetime": "2020/05/12 17:45"
+    },
+    {
+      "id":14,
+      "price":240,
+      "type": "in",
+      "paymentType":"cartão crédito",
+      "category": "lazer",
+      "datetime": "2020/11/28 19:45"
+    },
+    {
+      "id":15,
+      "price":110,
+      "type": "out",
+      "paymentType":"cartão",
+      "category": "cosméticos",
+      "datetime": "2020/09/31 17:15"
+    },  
+    {
+      "id":16,
+      "price":60,
+      "type": "in",
+      "paymentType":"cartão",
+      "category": "veículos",
+      "datetime": "2020/08/31 20:25"
+    },  
+    {
+      "id":17,
+      "price":30,
+      "type": "in",
+      "paymentType":"espécie",
+      "category": "alimentação",
+      "datetime": "2020/09/31 22:25"
+    },
+    {
+      "id":18,
+      "price":290,
+      "type": "in",
+      "paymentType":"cartão crédito",
+      "category": "diversos",
+      "datetime": "2020/09/31 10:55"
+    },
+    {
+      "id":19,
+      "price":50,
+      "type": "out",
+      "paymentType":"cartão debido",
+      "category": "educação",
+      "datetime": "2020/09/31 10:25"
+    },
+    {
+      "id":20,
+      "price":5,
+      "type": "out",
+      "paymentType":"cartão crédito",
+      "category": "saúde",
+      "datetime": "2020/09/31 10:25"
+    },
+    {
+      "id":21,
+      "price":30,
+      "type": "out",
+      "paymentType":"cartão débito",
+      "category": "combustível",
+      "datetime": "2020/09/31 10:25"
+    }
+  ],
   "cards" :[
     {
       "id": 1,
