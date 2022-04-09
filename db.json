@@ -31,5 +31,49 @@
       "model": "Palio",
       "year":  2010
     }
-  ]
+  ],
+  "cards" :[
+    {
+      "id": 1,
+      "name": "Janaina Oliveira da Silva" ,
+      "flag": "Visa",  
+      "Number": "6060.6060.6060.6060",
+      "Type": "Débito",
+      "validDate": "07/26"
+    },
+    {
+      "id": 2,
+      "name": "Bruno Sousa de lima" ,
+      "type": "Mastercard",  
+      "Number": "6060.6060.6060.6060",
+      "Type": "credit",
+      "validDate": "07/26"
+    },
+  {
+    "id": 3,
+    "name": "Bruno Sousa de lima" ,
+    "type": "ELO",  
+    "Number": "6060.6060.6060.6060",
+    "Type": "credit",
+    "validDate": "07/26"
+  },
+  {
+    "id": 4,
+    "name": "Lucas" ,
+    "type": "Hipercard",  
+    "Number": "6060.6060.6060.6060",
+    "Type": "credit",
+    "validDate": "07/26"
+  },
+  {
+    "id": 5,
+    "name": "Bruno Sousa de lima" ,
+    "type": "Maestro",  
+    "Number": "6060.6060.6060.6060",
+    "Type": "credit",
+    "validDate": "07/26"
+  }
+  
+] 
+  
 }
