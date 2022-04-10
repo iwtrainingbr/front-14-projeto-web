@@ -1,5 +1,27 @@
 function listUser() {
-    return `
+
+  fetch ('http://localhost:3000/users')
+  .then(response => response.json())
+  .then(response => {
+    response.map(user => {
+      document.getElementById('table-users').innerHTML += `
+        <tr>
+          <td>${user.name}</td>
+          <td>${user.cpf}</td>
+          
+          <td>${user.phone}</td>
+          <td>${user.email}</td>
+          <td>${user.status}</td>
+          <td>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Excluir</button>
+          </td>
+        </tr>                
+      `;
+    })
+  });
+
+  return `
     <h2>Lista de Usuários</h2>
     <hr>
     <div>
@@ -17,22 +39,9 @@ function listUser() {
           <td>Ações</td>
         </tr>
       </thead>
-      ${[0, 1, 2, 3, 4, 5].map(() => {
-        return `<tr>
-          <td>Chiquinho</td>
-          <td>601.000.000.00</td>
-          <td>(85)9 0000-0000</td>
-          <td>email@hotmail.com</td>
-          <td>Ativo</td>
-          <td>
-          
-            <button class="btn btn-outline-dark">Detalhes</button>
-            <button class="btn btn-dark">Editar</button>
-            <button class="btn btn-danger">Excluir</button>
-          </td>
-        </tr>`;
-      }).join('')}
-    </tbody>
+
+      <tbody id="table-users">
+      </tbody>
   </table>
 ` 
 }
